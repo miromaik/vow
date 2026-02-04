@@ -14,7 +14,7 @@ A command-line tool that automatically collects debugging information about your
 
 ```bash
 # Clone and build
-git clone https://github.com/yourusername/vow.git
+git clone https://github.com/miromaik/vow.git
 cd vow
 go build -o vow
 
