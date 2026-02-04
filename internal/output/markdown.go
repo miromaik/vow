@@ -7,10 +7,10 @@ import (
 	"strings"
 	"text/template"
 
-	"vow/internal/git"
-	"vow/internal/logs"
-	"vow/internal/project"
-	"vow/internal/system"
+	"github.com/miromaik/vow/internal/git"
+	"github.com/miromaik/vow/internal/logs"
+	"github.com/miromaik/vow/internal/project"
+	"github.com/miromaik/vow/internal/system"
 )
 
 // ReportData contains all data needed for the report

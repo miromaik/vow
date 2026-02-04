@@ -5,11 +5,11 @@ import (
 	"os"
 	"time"
 
-	"vow/internal/git"
-	"vow/internal/logs"
-	"vow/internal/output"
-	"vow/internal/project"
-	"vow/internal/system"
+	"github.com/miromaik/vow/internal/git"
+	"github.com/miromaik/vow/internal/logs"
+	"github.com/miromaik/vow/internal/output"
+	"github.com/miromaik/vow/internal/project"
+	"github.com/miromaik/vow/internal/system"
 
 	"github.com/fatih/color"
 	"github.com/spf13/cobra"

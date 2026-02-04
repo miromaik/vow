@@ -2,7 +2,7 @@ package main
 
 import (
 	"os"
-	"vow/cmd"
+	"github.com/miromaik/vow/cmd"
 )
 
 func main() {

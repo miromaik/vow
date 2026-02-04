@@ -12,20 +12,29 @@ A command-line tool that automatically collects debugging information about your
 
 ## Installation
 
-```bash
-# Clone and build
-git clone https://github.com/miromaik/vow.git
-cd vow
-go build -o vow
+### Quick Install (macOS/Linux)
 
-# Optional: move to PATH
-sudo mv vow /usr/local/bin/
+```bash
+curl -sSL https://raw.githubusercontent.com/miromaik/vow/main/install.sh | bash
 ```
 
-Or:
+### Using Go
 
 ```bash
 go install github.com/miromaik/vow@latest
+```
+
+Make sure `$GOPATH/bin` is in your PATH:
+```bash
+export PATH=$PATH:$(go env GOPATH)/bin
+```
+
+### Manual Build
+
+```bash
+git clone https://github.com/miromaik/vow.git
+cd vow
+make install
 ```
 
 ## Usage

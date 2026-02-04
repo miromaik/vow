@@ -1,4 +1,4 @@
-module vow
+module github.com/miromaik/vow
 
 go 1.21
 
