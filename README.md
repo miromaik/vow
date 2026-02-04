@@ -25,7 +25,7 @@ sudo mv vow /usr/local/bin/
 Or:
 
 ```bash
-go install github.com/yourusername/vow@latest
+go install github.com/miromaik/vow@latest
 ```
 
 ## Usage
